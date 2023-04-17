@@ -1,7 +1,5 @@
-
-
-
-
+FROM python:3.7
+CMD mkdir /app
 COPY . .
 COPY requirements.txt requirements.txt
 
